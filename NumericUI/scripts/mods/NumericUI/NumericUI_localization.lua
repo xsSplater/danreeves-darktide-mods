@@ -49,6 +49,26 @@ return {
 		["zh-cn"] = "显示团队技能冷却计数器",
 		ru = "Показывать время восстановления способности команды в виде числа",
 	},
+	ability_cooldown_font_size = {
+		en = "Ability cooldown font size",
+		ru = "Размер шрифта времени восстановления Cпособности",
+	},
+	ability_cooldown_font_size_description = {
+		en = "Use less than 45 for percentage format!",
+		ru = "Для процентного формата не более 45!",
+	},
+	ammo_text_font_size = {
+		en = "Ammo text font size",
+		ru = "Размер шрифта текста боеприпасов",
+	},
+	ammo_text_offset_y = {
+		en = "Ammo text offset Y",
+		ru = "Смещение текста боеприпасов по вертикали",
+	},
+	ammo_text_offset_x = {
+		en = "Ammo text offset X",
+		ru = "Смещение текста боеприпасов по горизонтали",
+	},
 	level = {
 		en = "Show level",
 		["zh-cn"] = "显示等级",
