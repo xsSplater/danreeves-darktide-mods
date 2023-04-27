@@ -220,12 +220,12 @@ mod:hook_require(TEAM_HUD_DEF_PATH, function(instance)
 				pass_type = "text",
 				value = "<ammo_count>",
 				style = {
-					default_font_size = 16,
+					default_font_size = mod:get("ammo_text_font_size"), -- def 16
 					font_size = 16,
 					text_vertical_alignment = "center",
 					text_horizontal_alignment = "left",
 					vertical_alignment = "center",
-					offset = { 60, -16, 3 },
+					offset = { mod:get("ammo_text_offset_x"), mod:get("ammo_text_offset_y"), 3 }, -- def 60, -16, 3
 					size = { bar_size[1] * 1.5, bar_size[2] },
 					font_type = hud_body_font_settings.font_type,
 					text_color = UIHudSettings.color_tint_main_2,
